@@ -1,0 +1,207 @@
+.realmadrid img {
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartas img {
+    width: 155px;
+    height: auto;
+}
+
+.fondo {
+    background-color: green;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    border: 5px solid black;
+    color: black;
+    background-color: orange;
+    display: block;
+    padding: 15px 30px;
+    font-size: 40px;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.realmadrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.realmadrid img {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.cartas img {
+    width: 120px;
+    height: auto;
+}
+
+hr {
+    border: 1px solid orange;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tamaño-11-inicial img {
+    width: 200px;
+    height: auto;
+}
+
+.porteria {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.defensas {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.mediocentro {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.mco {
+    margin: top 80px;
+}
+
+.extremos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -20px;
+}
+
+.delantero {
+    display: flex;
+    justify-content: center;
+    margin-top: -450px;
+
+}
+
+.entrenador {
+    justify-content: left;
+    align-items: start;
+}
+
+.titulo {
+    background-color: orange;
+    color: black;
+    border: 3px solid black;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
+    padding: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+
+}
+
+.fondo {
+    background-image: url(images/img16campo.jpg);
+    background-size: cover;     /* cubre todo el espacio */
+    background-repeat: no-repeat; /* no se repite */
+    background-position: center;  /* centrada */ 
+}
+
+
+.animacion img {
+
+    transition: transform 0.3s;
+}
+
+.animacion :hover img {
+    transform: scale(1.1);
+
+}
+
+.A{
+margin: 0;
+padding: 0;
+
+}
+
+
+body{
+background-image: url(https://www.ea.com/_next/static/media/FC26_Nested_BG.6ca8aca1.png);
+color: aliceblue;
+
+}
+
+.boton {
+  font-size: 20px;
+  color: black;
+  background-color: rgb(255, 208, 0);
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: red;
+  color: rgb(248, 241, 241);
+  border-color: red;
+}
+
+.button {
+  font-size: 18px;
+  background-color: rgb(255, 208, 0);
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(221, 3, 3);
+  color: white;
+  border-color: rgb(155, 2, 2);
+}
